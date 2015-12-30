@@ -1,0 +1,29 @@
+Common Commands
+
+--address <value> - Address to connect to. (empty value ? local game)
+--gameid <value> - Set gameid
+--gameid list - List available gameids
+--map-dir <value> - Same as --world (deprecated)
+--world <value> - Set world path (implies local game)
+--world list - List all available worlds
+--worldname <value> - Set world by name (implies local game)
+--migrate <value> - Migrate from current backend to another (only works when using minetestserver or --server)
+--name <value> - Set player name
+--password <value> - Set password
+--port <value> - Set network port (UDP)
+--go - Disable main menu (skips and goes straight to game)
+--config <value> - Load configuration from specified file
+--server - Run dedicated server
+--videomodes - Show available video modes
+--help - Show allowed options
+
+Debugging and Testing
+
+--logfile <value> - Set logfile path (empty value ? no logging)
+--info - Print more information to console
+--trace - Print enormous amounts of information to log and console
+--verbose - Print even more information to console
+--disable-unittests - Disable unit tests
+--enable-unittests - Enable unit tests
+--random-input - Enable random user input, for testing
+--speedtests - Run speed tests
