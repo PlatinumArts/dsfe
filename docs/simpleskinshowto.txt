@@ -1,0 +1,1 @@
+To add NEW skins download your Minecraft skin into the textures folder and name it accordingly e.g "character_31.png" or "character_32.png" (whichever is the next number available)... also... pop into the meta directory and make a new "character_31.txt" file with this text inside it
