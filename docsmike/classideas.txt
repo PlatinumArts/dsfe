@@ -38,6 +38,7 @@ Energy source(Solar? Hydro?)
 Grocery Store / Mess Hall / Farmers Market
 Blacksmiths
 
+Mr. Mikeyagi temple in the mountains
 
 Idea:
 Put it into survival and give them a timelimit on certain things such as waste management and also include the hunger mod.  Some kind of sanitation meter?  I could spawn some of the items to avoid the monotony of having to dig for every single thing.  What about an economy and a town budget?  
