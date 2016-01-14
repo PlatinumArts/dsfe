@@ -16,6 +16,7 @@ Master Sewage/Water Management Engineer/Master Plumber?
 Master of Transportation and Roads
 Master of Parks and Recreation
 Master of Agriculture and Fishing
+Master Blacksmith? (Makes tools and most crafted resources/items)
 
 Masters can employ others but they are in charge/supervisors of the operations
 
@@ -35,6 +36,12 @@ Security system?
 Road lights/house lights
 Energy source(Solar? Hydro?)
 Grocery Store / Mess Hall / Farmers Market
+Blacksmiths
+
 
 Idea:
-Put it into survival and give them a timelimit on certain things such as waste management and also include the hunger mod.  Some kind of sanitation meter?  I could spawn some of the items to avoid the monotony of having to dig for every single thing.  What about an economy and a town budget?
+Put it into survival and give them a timelimit on certain things such as waste management and also include the hunger mod.  Some kind of sanitation meter?  I could spawn some of the items to avoid the monotony of having to dig for every single thing.  What about an economy and a town budget?  
+
+Misc Ideas:
+City Builder gametype? Helicopter? Natural disasters?  TNT?
+
