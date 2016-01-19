@@ -44,11 +44,7 @@ Idea:
 Put it into survival and give them a timelimit on certain things such as waste management and also include the hunger mod.  Some kind of sanitation meter?  I could spawn some of the items to avoid the monotony of having to dig for every single thing.  What about an economy and a town budget?  
 
 Possible Mods to add:
-Money/Economy - Miners can even sell blocks with more valuable blocks costing money.  The town budget can be raised by creating taxes which can pay for town buildings and projects.  Community stuff like pools can cost money too and perhaps some go towards the town budget.
-Thirst (have to boil/clean water?)
-Hunger
-Config change - Beds let people sleep at night and reset to day?
-Trading/shops?
+
 Fishing
 ES Mod:
 - NPCs to wander the town/trade?
@@ -57,5 +53,19 @@ ES Mod:
 Helicopter?
 
 Misc Ideas:
-Helicopter? Natural disasters?  TNT?
+Natural disasters?  TNT? Poison water?
+
+Testing:
+ALSO TEST LUA vs LUAJIT ON THE SERVER! :)
+
+Mods: Currency Mod, and Bitchange Mod
+Money/Economy - Miners can even sell blocks with more valuable blocks costing money.  The town budget can be raised by creating taxes which can pay for town buildings and projects.  Community stuff like pools can cost money too and perhaps some go towards the town budget.
+Trading/shops?
+
+Exertion Mod -
+Thirst (have to boil/clean water?) 
+Hunger - Exertion Mod
+Beds letting you sleep at night (already working) enable_bed_night_skip enable_bed_respawn = false  -idea- curfew?
+
+
 
