@@ -67,5 +67,10 @@ Thirst (have to boil/clean water?)
 Hunger - Exertion Mod
 Beds letting you sleep at night (already working) enable_bed_night_skip enable_bed_respawn = false  -idea- curfew?
 
+To Do Tuesday:
+Rename game mode for the world
+Backup the world
+Enable exertion and bitchange mods for testing
+Make luajit branch/repo?
 
 
