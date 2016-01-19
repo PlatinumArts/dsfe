@@ -43,6 +43,19 @@ Mr. Mikeyagi temple in the mountains
 Idea:
 Put it into survival and give them a timelimit on certain things such as waste management and also include the hunger mod.  Some kind of sanitation meter?  I could spawn some of the items to avoid the monotony of having to dig for every single thing.  What about an economy and a town budget?  
 
+Possible Mods to add:
+Money/Economy - Miners can even sell blocks with more valuable blocks costing money.  The town budget can be raised by creating taxes which can pay for town buildings and projects.  Community stuff like pools can cost money too and perhaps some go towards the town budget.
+Thirst (have to boil/clean water?)
+Hunger
+Config change - Beds let people sleep at night and reset to day?
+Trading/shops?
+Fishing
+ES Mod:
+- NPCs to wander the town/trade?
+- Horses/Pigs to ride
+- Animals to herd aka cows to milk, sheep for wool
+Helicopter?
+
 Misc Ideas:
-City Builder gametype? Helicopter? Natural disasters?  TNT?
+Helicopter? Natural disasters?  TNT?
 
