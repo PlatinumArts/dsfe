@@ -1,0 +1,1 @@
+start /b bin\luajit\D.sSandboxLuaJit1-14-2016.exe
