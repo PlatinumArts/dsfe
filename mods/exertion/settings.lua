@@ -199,8 +199,8 @@ exertionHoldingBreathMax = 10;
  --
  -- default: foodPoisoningProb = 0.025;
  --
-foodPoisoningProb = 0.025;
-
+--foodPoisoningProb = 0.025;
+foodPoisoningProb = 0.000;
 
 ---- Status Effects
 
