@@ -141,7 +141,7 @@ exertionStatuses.heavy =
  --
 fedStatuses = defaults.fedStatuses or {};
 fedStatuses.starving = 0;
-fedStatuses.hungry   = 1;
+fedStatuses.hungry   = 4;
 fedStatuses.full     = 10;
 
 --- Status values indicating how well hydrated the player is.  Each key is a
@@ -158,7 +158,7 @@ fedStatuses.full     = 10;
  --
 hydratedStatuses = defaults.hydratedStatuses or {};
 hydratedStatuses.dehydrated = 0;
-hydratedStatuses.thirsty    = 1;
+hydratedStatuses.thirsty    = 4;
 hydratedStatuses.hydrated   = 10;
 
 --- Status values indicating how badly poisoned the player is.  Each key is a
@@ -289,11 +289,11 @@ healingMultipliers.poisoned.poisoned   = 0.0;
  --
 speedMultipliers = defaults.speedMultipliers or
    { exertion = {}, fed = {}, hydrated = {}, poisoned = {} };
-speedMultipliers.fed.starving        = 0.8;
-speedMultipliers.fed.hungry          = 1.0;
+speedMultipliers.fed.starving        = 0.1;
+speedMultipliers.fed.hungry          = 0.7;
 speedMultipliers.fed.full            = 1.0;
-speedMultipliers.hydrated.dehydrated = 0.8;
-speedMultipliers.hydrated.thirsty    = 1.0;
+speedMultipliers.hydrated.dehydrated = 0.1;
+speedMultipliers.hydrated.thirsty    = 0.7;
 speedMultipliers.hydrated.hydrated   = 1.0;
 speedMultipliers.poisoned.none       = 1.0;
 speedMultipliers.poisoned.poisoned   = 0.8;
@@ -316,10 +316,10 @@ speedMultipliers.poisoned.poisoned   = 0.8;
  --
 jumpMultipliers = defaults.jumpMultipliers or
    { exertion = {}, fed = {}, hydrated = {}, poisoned = {} };
-jumpMultipliers.fed.starving        = 0.95;
+jumpMultipliers.fed.starving        = 0.2;
 jumpMultipliers.fed.hungry          = 1.0;
 jumpMultipliers.fed.full            = 1.0;
-jumpMultipliers.hydrated.dehydrated = 0.95;
+jumpMultipliers.hydrated.dehydrated = 0.2;
 jumpMultipliers.hydrated.thirsty    = 1.0;
 jumpMultipliers.hydrated.hydrated   = 1.0;
 jumpMultipliers.poisoned.none       = 1.0;
@@ -329,7 +329,7 @@ jumpMultipliers.poisoned.poisoned   = 0.95;
  --
  -- default: poisonedRetchProbability_perPeriod = 0.1;
  --
-retchProb_perPeriod = 0.1;
+retchProb_perPeriod = 0.0;
 
 --- Multipliers for probability of retching for each status (exertion, fed,
  -- hydrated, poisoned).  Each multiplier defaults to 1.0 if the applicable
