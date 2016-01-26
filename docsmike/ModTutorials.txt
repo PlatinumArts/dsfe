@@ -1,0 +1,21 @@
+DISCLAIMER:  All sites mentioned are 3rd party, I am not responsible for any of the content of the webpages.
+
+Skins:
+Use /m to load up the skins menu
+
+Mesecons aka Wiring and Electricity:
+http://mesecons.net/
+
+Pipeworks Wiki:
+https://github.com/VanessaE/pipeworks/wiki
+
+World Edit Tutorial (Also it is included in World Edit mod folder):
+https://github.com/Uberi/MineTest-WorldEdit/blob/master/Tutorial.md
+
+Fishing:
+Left click casts the line
+Right click reels in the line
+Wooden Pole : easy craftable but only 30 uses
+Mithril Pole : hardly craftable but 1500 uses
+Uses cotton for the string for crafting
+See more in the readme.txt

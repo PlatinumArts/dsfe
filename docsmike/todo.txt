@@ -1,7 +1,22 @@
 To do list:
-Fishing
-World Edit
-mesecons info on github
+
+High Priority:
+Make food or thirsty severely cripple your movement abilities or make you sick
+
+Low Priority:
+New name?
+Poop block
+Texture Pack to set it a part
+
+Possible Idea:
+Pets
+NPCs/NPC Traders?
+Purify/Boil Water
+Mesecons info on github
+Two Seater Cars (for ambulances and taxis and such)
+Helicopter?
 
 Done:
+Fishing (Fishing For Fun Mod) https://forum.minetest.net/viewtopic.php?f=11&t=13659
 Pipelines
+World Edit Added

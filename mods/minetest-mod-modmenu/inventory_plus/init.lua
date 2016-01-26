@@ -1,10 +1,13 @@
 --inventory_plus compatibility wrapper for use with modmenu
 
---This program is free software. It comes without any warranty, to
---the extent permitted by applicable law. You can redistribute it
---and/or modify it under the terms of the Do What The Fuck You Want
---To Public License, Version 2, as published by Sam Hocevar. See
---http://www.wtfpl.net/ for more details.
+--DO WHAT YOU WANT TO PUBLIC LICENSE
+--or DWYWPL
+
+--December 2nd 2015
+--License Copyright (C) 2015 Michael Tomaino (PlatinumArts@gmail.com)
+--http://www.sandboxgamemaker.com/dwywpl/
+
+--1. You are allowed to do whatever you want to with whatever is being licensed by this license!
 
 inventory_plus = {}
 
