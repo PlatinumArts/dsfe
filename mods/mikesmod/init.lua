@@ -3,3 +3,4 @@ minetest.register_craftitem("mikesmod:waste", {
 	inventory_image = "mikesmod_waste.png",
 	groups={waste},
 })
+
