@@ -13,6 +13,7 @@ World Edit Tutorial (Also it is included in World Edit mod folder):
 https://github.com/Uberi/MineTest-WorldEdit/blob/master/Tutorial.md
 
 Fishing:
+IMPORTANT - Bait must go to the RIGHT of the fishing pole in the hotbar!
 Left click casts the line
 Right click reels in the line
 Wooden Pole : easy craftable but only 30 uses

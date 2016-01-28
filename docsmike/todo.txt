@@ -1,12 +1,14 @@
 To do list:
 
 High Priority:
-Make food or thirsty severely cripple your movement abilities or make you sick
+Reduce tree growth time
+Before any NPCs or Animals can be added players must not be able to do ANY damage 
 
 Low Priority:
 New name?
 Poop block
 Texture Pack to set it a part
+Animals
 
 Possible Idea:
 Pets
@@ -15,8 +17,12 @@ Purify/Boil Water
 Mesecons info on github
 Two Seater Cars (for ambulances and taxis and such)
 Helicopter?
+Water?
+Police cars and ambulances
+Multiperson cars/boats/trains
 
 Done:
 Fishing (Fishing For Fun Mod) https://forum.minetest.net/viewtopic.php?f=11&t=13659
 Pipelines
 World Edit Added
+Make food or thirsty severely cripple your movement abilities or make you sick
