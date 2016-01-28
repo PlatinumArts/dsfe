@@ -20,6 +20,7 @@ Helicopter?
 Water?
 Police cars and ambulances
 Multiperson cars/boats/trains
+Remove trash??  So they can't destroy waste, they need to address it
 
 Done:
 Fishing (Fishing For Fun Mod) https://forum.minetest.net/viewtopic.php?f=11&t=13659

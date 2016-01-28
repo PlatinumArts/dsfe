@@ -20,3 +20,8 @@ Wooden Pole : easy craftable but only 30 uses
 Mithril Pole : hardly craftable but 1500 uses
 Uses cotton for the string for crafting
 See more in the readme.txt
+
+Make Your Own Mods!
+http://dev.minetest.net/Intro
+http://sfan5.duckdns.org/minetest-modding-tutorial/html/englishEN.html
+http://home.metrocast.net/~minetestmoddingtutorial/beginnerEN.html
