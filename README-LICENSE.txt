@@ -1,7 +1,5 @@
 ﻿D.'s Sandbox is based off of Minetest, an InfiniMiner/Minecraft inspired game.
 
-SVN TEST!!!! :D
-
 D.'s Sandbox is Copyright (c) 2015 Michael Tomaino PlatinumArts@gmail.com
 http://SandboxGameMaker.com
 D.'s Sandbox is licensed GPL with the exception of D. The Atom Shifter and his concept.  You are allowed to use D. and his concept for non commercial games and stories though they must be labeled as fan derived and not official.  D. The Atom Shifter, his concept, and all of his story CANNOT be used commercially without expressed written permission from Michael Tomaino of Platinum Arts LLC.  D. The Atom Shifter and all associated content is property of Michael Tomaino of Platinum Arts LLC.  

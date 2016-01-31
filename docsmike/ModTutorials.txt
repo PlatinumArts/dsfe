@@ -21,6 +21,10 @@ Mithril Pole : hardly craftable but 1500 uses
 Uses cotton for the string for crafting
 See more in the readme.txt
 
+Streets Mod:
+https://github.com/webdesigner97/streets/wiki/Trafficlight
+
+
 Make Your Own Mods!
 http://dev.minetest.net/Intro
 http://sfan5.duckdns.org/minetest-modding-tutorial/html/englishEN.html
