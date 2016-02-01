@@ -10,7 +10,7 @@ minetest.register_privilege("ui_full", {
 	give_to_singleplayer = false,
 })
 
-
+--[[ Remove Trash for Modern City Builder - MikeEdit
 local trash = minetest.create_detached_inventory("trash", {
 	--allow_put = function(inv, listname, index, stack, player)
 	--	if unified_inventory.is_creative(player:get_player_name()) then
@@ -26,6 +26,7 @@ local trash = minetest.create_detached_inventory("trash", {
 	end,
 })
 trash:set_size("main", 1)
+--]]
 
 unified_inventory.register_button("craft", {
 	type = "image",
@@ -154,8 +155,8 @@ unified_inventory.register_page("craft", {
 		formspec = formspec.."listcolors[#00000000;#00000000]"
 		formspec = formspec.."list[current_player;craftpreview;6,"..formspecy..";1,1;]"
 		formspec = formspec.."list[current_player;craft;2,"..formspecy..";3,3;]"
-		formspec = formspec.."label[7,"..(formspecy + 1.5)..";" .. S("Trash:") .. "]"
-		formspec = formspec.."list[detached:trash;main;7,"..(formspecy + 2)..";1,1;]"
+		--formspec = formspec.."label[7,"..(formspecy + 1.5)..";" .. S("Trash:") .. "]"   MikeEdit Removed Trash box
+		--formspec = formspec.."list[detached:trash;main;7,"..(formspecy + 2)..";1,1;]"
 		formspec = formspec.."listring[current_name;craft]"
 		formspec = formspec.."listring[current_player;main]"
 		if unified_inventory.is_creative(player_name) then
