@@ -1,15 +1,14 @@
 To do list:
 
 High Priority:
+keymap_toggle_debug = nil
 Mod Testing Subgame (Use minimal development and remove all mods or just bugged mods?)
+Eating food creates waste and trash OR Waste item given daily
 D.'s Sandbox branch renamed to "default"
-Reduce tree growth time
 Before any NPCs or Animals can be added players must not be able to do ANY damage 
-Update worldedit
 
 Low Priority:
 New name?
-Poop block
 Texture Pack to set it a part
 Animals
 
@@ -24,7 +23,6 @@ Helicopter?
 Water?
 Police cars and ambulances
 Multiperson cars/boats/trains
-Remove trash??  So they can't destroy waste, they need to address it
 Rockets to go to the moon
 
 Done:
@@ -32,3 +30,8 @@ Fishing (Fishing For Fun Mod) https://forum.minetest.net/viewtopic.php?f=11&t=13
 Pipelines
 World Edit Added
 Make food or thirsty severely cripple your movement abilities or make you sick
+Remove trash??  So they can't destroy waste, they need to address it
+Waste Item
+Update worldedit 2-1-2016
+Reduce tree growth time (Testing the value 100)
+player_transfer_distance = 0 default, change so they can't see each others names unless up close (set to 5)
