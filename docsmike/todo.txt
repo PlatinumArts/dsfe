@@ -1,6 +1,8 @@
 To do list:
 
 High Priority:
+Test https://minetest.tv/skin-converter.php (Also get a hold of a minecraft skin editor in general to be bundled?) Blender?
+Look into https://minetest.tv/ more
 keymap_toggle_debug = nil
 Mod Testing Subgame (Use minimal development and remove all mods or just bugged mods?)
 Eating food creates waste and trash OR Waste item given daily
@@ -11,6 +13,7 @@ Low Priority:
 New name?
 Texture Pack to set it a part
 Animals
+Add Compass
 
 Possible Idea:
 Achievements
