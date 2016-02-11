@@ -15,7 +15,12 @@ Texture Pack to set it a part
 Animals
 Add Compass
 
-Possible Idea:
+
+Mode Ideas:
+Destruction (Lightning, nukes, tnt, much bigger lava volumes, tornadoes, black holes, acid and toxic waste, etc)
+
+
+Possible Ideas:
 Achievements
 Pets
 NPCs/NPC Traders?
@@ -38,3 +43,7 @@ Waste Item
 Update worldedit 2-1-2016
 Reduce tree growth time (Testing the value 100)
 player_transfer_distance = 0 default, change so they can't see each others names unless up close (set to 5)
+
+D. Eye Gold Color
+Hex: FF C9 04 or FF CC 00
+RGB: 255R, 202G, 6B

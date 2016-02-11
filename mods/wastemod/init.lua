@@ -7,26 +7,28 @@ minetest.register_craftitem("wastemod:waste", {
 })
 
 
--- A HUGE THANKS TO BLERT FOR HIS HELP WITH THIS CODE!!!
+-- A HUGE THANKS TO blert2112 FOR HIS HELP WITH THIS CODE!!!
 
---Super Abbreviated and simplified - gives a player an item every 5 minutes
+--Super Abbreviated and simplified - gives a player an item every 10 minutes
 core.register_on_joinplayer(function(player)
+local pname = player:get_player_name()
    
-   -- Give player item every five minutes
+   -- Give player item every ten minutes
 local num_items = 1
 local timer = 0
 core.register_globalstep(function(dtime)
    timer = timer + dtime;
-   -- do every five minutes (300 seconds)
-   if timer >= 300 then
-   minetest.chat_send_all("You don't feel so good.")
-	player:get_inventory():add_item("main", "wastemod:waste "..num_items)
+   -- do every ten minutes (600 seconds)
+   if timer >= 600 then
+   --minetest.chat_send_all("You don't feel so good.")
+   minetest.chat_send_player(pname, "You don't feel so good :(") --tell each individual player it instead of global chat
+   player:get_inventory():add_item("main", "wastemod:waste "..num_items)
     timer = 0
    end
 end)
 end)
    
---BLERTS CODE FOR GIVING A PLAYER AN ITEM A DAY (WASTE IN THIS CASE)
+--blert2112's CODE FOR GIVING A PLAYER AN ITEM A DAY (WASTE IN THIS CASE)
 --[[
 -- initialize player last login time table
 local players = {}
@@ -108,7 +110,7 @@ end)
 --]]
 
 --[[
--- BLERTS OLD CODE FOR GIVING A PLAYER AN ITEM EVERY DAY (WASTE IN THIS CASE)  
+-- blert2112's OLD CODE FOR GIVING A PLAYER AN ITEM EVERY DAY (WASTE IN THIS CASE) Main change is this one crashes on a new world because no players folder yet 
 local players = {}
 
 local fname = core.get_worldpath().."/players/dailyitems.txt"
