@@ -1,6 +1,8 @@
 To do list:
 
 High Priority:
+Water Bottle that can be filled up
+Worms edible?
 Test https://minetest.tv/skin-converter.php (Also get a hold of a minecraft skin editor in general to be bundled?) Blender?
 Look into https://minetest.tv/ more
 keymap_toggle_debug = nil

@@ -7,7 +7,61 @@ minetest.register_craftitem("wastemod:waste", {
 })
 
 
+
+
 -- A HUGE THANKS TO blert2112 FOR HIS HELP WITH THIS CODE!!!
+
+--local harm = 2  Don't use yet, tie with being poisoned?
+
+local timer = 0
+core.register_globalstep(function(dtime)
+   timer = timer + dtime;
+   if timer >= 300 then
+      local players = core.get_connected_players()
+      for i = 1,#players do
+         local name = players[i]:get_player_name()
+         core.chat_send_player(name, "You don't feel so good :(")
+         
+		 --[[   Remove hurt stuff for now and make it poison
+         local inv = players[i]:get_inventory()
+         if inv:contains_item("main", "wastemod:waste") then
+            hp = players[i]:get_hp()
+            players[i]:set_hp(hp - harm)
+         end
+         --]]
+		 
+         players[i]:get_inventory():add_item("main", "wastemod:waste")
+      end
+      timer = 0
+   end
+end)
+
+--BLERT'S DON'T HAVE WASTE IN INVENTORY CODE
+--[[
+local harm = 2
+
+local timer = 0
+core.register_globalstep(function(dtime)
+   timer = timer + dtime;
+   if timer >= 10 then
+      local players = core.get_connected_players()
+      for i = 1,#players do
+         local name = players[i]:get_player_name()
+         core.chat_send_player(name, "You don't feel so good :(")
+         
+         local inv = players[i]:get_inventory()
+         if inv:contains_item("main", "wastemod:waste") then
+            hp = players[i]:get_hp()
+            players[i]:set_hp(hp - harm)
+         end
+         
+         players[i]:get_inventory():add_item("main", "wastemod:waste")
+      end
+      timer = 0
+   end
+end)
+--]]
+
 
 --Super Abbreviated and simplified - gives a player an item every 10 minutes
 core.register_on_joinplayer(function(player)
