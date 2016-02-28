@@ -21,7 +21,7 @@ core.register_globalstep(function(dtime)
       for i = 1,#players do
          local name = players[i]:get_player_name()
          core.chat_send_player(name, "You don't feel so good :(")
-         
+         		
 		 --[[   Remove hurt stuff for now and make it poison
          local inv = players[i]:get_inventory()
          if inv:contains_item("main", "wastemod:waste") then
@@ -64,6 +64,7 @@ end)
 
 
 --Super Abbreviated and simplified - gives a player an item every 10 minutes
+--[[
 core.register_on_joinplayer(function(player)
 local pname = player:get_player_name()
    
@@ -81,7 +82,9 @@ core.register_globalstep(function(dtime)
    end
 end)
 end)
-   
+ 
+--]]
+ 
 --blert2112's CODE FOR GIVING A PLAYER AN ITEM A DAY (WASTE IN THIS CASE)
 --[[
 -- initialize player last login time table
