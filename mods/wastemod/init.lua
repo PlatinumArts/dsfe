@@ -16,7 +16,7 @@ minetest.register_craftitem("wastemod:waste", {
 local timer = 0
 core.register_globalstep(function(dtime)
    timer = timer + dtime;
-   if timer >= 300 then
+   if timer >= 600 then
       local players = core.get_connected_players()
       for i = 1,#players do
          local name = players[i]:get_player_name()
