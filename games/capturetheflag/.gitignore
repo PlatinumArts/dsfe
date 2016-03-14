@@ -1,0 +1,10 @@
+## Generic ignorable patterns and files
+*~
+.*.swp
+*bak*
+tags
+*.vim
+debug.txt
+
+## Files related to minetest development cycle
+*.patch
