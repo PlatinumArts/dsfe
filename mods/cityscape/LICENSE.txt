@@ -1,0 +1,13 @@
+The molotov.lua code is derived from more_fire (https://github.com/NathanSalapat/more_fire/tree/dev) by NathanSalapat and others, and is distributed as CC-BY-SA (see the textures license).
+
+All other code is DWYWPL:
+
+
+DO WHAT YOU WANT TO PUBLIC LICENSE
+or DWYWPL
+
+December 2nd 2015
+License Copyright (C) 2015 Michael Tomaino (PlatinumArts@gmail.com)
+http://www.sandboxgamemaker.com/dwywpl/
+
+1. You are allowed to do whatever you want to with whatever is being licensed by this license!
