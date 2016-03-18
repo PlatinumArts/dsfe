@@ -62,7 +62,7 @@ dofile(cityscape.path .. "/deco_rocks.lua")
 dofile(cityscape.path .. "/mapgen.lua")
 dofile(cityscape.path .. "/buildings.lua")
 dofile(cityscape.path .. "/houses.lua")
---dofile(cityscape.path .. "/molotov.lua")  MikeEdit Remove Molotovs
+--dofile(cityscape.path .. "/molotov.lua")
 
 cityscape.players_to_check = {}
 
