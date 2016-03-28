@@ -1,0 +1,1 @@
+Adds hidden blocks with sounds. You need to supply the sounds. Eaasy to set up.

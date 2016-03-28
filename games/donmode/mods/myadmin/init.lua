@@ -1,0 +1,6 @@
+dofile(minetest.get_modpath("myadmin").."/tools.lua")
+dofile(minetest.get_modpath("myadmin").."/spawn.lua")
+dofile(minetest.get_modpath("myadmin").."/chat.lua")
+dofile(minetest.get_modpath("myadmin").."/privs.lua")
+dofile(minetest.get_modpath("myadmin").."/curse.lua")
+dofile(minetest.get_modpath("myadmin").."/extras.lua")

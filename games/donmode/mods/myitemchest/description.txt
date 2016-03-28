@@ -1,0 +1,1 @@
+A chest the spawns items when opened.
